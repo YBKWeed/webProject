@@ -1,0 +1,83 @@
+@charset "UTF-8";
+*{margin: 0}
+
+.main{
+	width:800px;
+	margin:30px auto;
+}
+
+.content{
+	margin-top: 30px;
+}
+
+.menu{
+	margin-bottom: 30px;
+	text-align: right;
+}
+
+.menu > li{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background: gray;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.menu > li:hover{
+	background: #222;
+}
+
+.menu > li > a{
+	text-decoration: none;
+	color: white;
+}
+
+.title{
+	color: #444;
+	text-shadow: 2px 2px 3px gray;
+}
+
+.text_center{
+	text-align: center;
+}
+
+.insert_form{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.insert_form th{
+	width: 20%;
+	color: #444;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 15px;
+}
+.insert_form td{
+	padding-top: 15px;
+	
+}
+
+.insert_form input{
+	height: 23.73px;
+	border: solid 1px #ccc;
+	border-radius: 10px;
+}
+
+.insert_form button{
+	background:gray;
+	color: white;
+	border:none;
+	border-radius: 10px;
+	height: 25.72px
+}
+
+
+
+
+
+
+
